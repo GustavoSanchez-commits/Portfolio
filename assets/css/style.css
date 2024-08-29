@@ -1,0 +1,189 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  line-height: 1.6;
+  color: #333;
+}
+
+/* Header */
+header {
+  background-color:#a69a81;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+/* Navbar */
+.navbar {
+  position: fixed;
+  top: 0;
+  right: 0;
+  padding: 1rem 2rem;
+  border-radius: 0 0 0 10px;
+  z-index: 500;
+}
+
+.menu-items {
+  display: flex;
+  gap: 1.5rem; /* Espaçamento entre os itens */
+  list-style: none;
+}
+
+.menu-items a {
+  text-decoration: none;
+  color: #f0f0e6;
+  font-size: 1.2rem;
+  padding: 0.5rem 1rem;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.menu-items a:hover {
+  background-color: #978e7a;
+  color: #fff;
+  border-radius: 5px;
+}
+
+/* Nome e ícone */
+.nome h1 {
+  font-size: 3rem;
+  color: #000000;
+}
+
+.nome h3 {
+  font-size: 1.5rem;  
+  color: #f0f0e6;
+  margin-top: 0.5rem;
+}
+
+.baixo-icon {
+  margin-top: 6rem;
+}
+
+.baixo-icon a {
+  color: #f0f0e6;
+  font-size: 4rem;
+}
+/* Seções */
+section {
+  padding: 4rem 2rem;
+}
+
+.sobre-mim {
+  background-color: #eb9e6e;
+  text-align: center;
+  height: 100vh;
+}
+
+.sobre-mim img {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin-bottom: 1.5rem;
+}
+
+.sobre-mim h1 {
+  font-size: 2.5rem;
+  margin-bottom: 1.5rem;
+  color: #000000;
+}
+
+.texto-sobre {
+  font-size: 1rem;
+  color: #f0f0e6;
+  padding: 0 2rem;
+  margin-bottom: 2rem;
+}
+
+.skills h2 {
+  margin-bottom: 1.5rem;
+  color: #f0f0e6;
+}
+
+.table {
+  color: #333;
+  background-color: #f0f0e6;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Projetos */
+.projetos {
+  background-color: #a69a81;
+  height: 100vh;
+}
+
+.projetos h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #000000;
+}
+
+.card {
+  border: none;
+  border-radius: 8px;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-10px);
+}
+
+.card-title {
+  font-size: 1.5rem;
+  margin-bottom: 1rem;
+}
+
+.card-text {
+  font-size: 1rem;
+  margin-bottom: 1rem;
+}
+
+.btn-primary {
+  background-color: #05b8ff;
+  border: none;
+  transition: background-color 0.3s ease;
+}
+
+.btn-primary:hover {
+  background-color: #004f7a;
+}
+
+/* Contato */
+.contato {
+  background-color: #eb9e6e;
+  color: #f0f0e6;
+}
+
+.contato h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2rem;
+  color: #000000;
+}
+
+.contato p {
+  font-size: 1.2rem;
+}
+
+.bi {
+  color: #ffffff;
+  transition: color 0.3s ease;
+}
+
+.bi:hover {
+  color: #000000;
+}
+
+.data-atual {
+  margin-top: 1.5rem;
+  font-size: 1rem;
+}
